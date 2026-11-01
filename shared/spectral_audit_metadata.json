@@ -1,0 +1,26 @@
+{
+  "schema": "kisan-kavach.spectral-audit.v1",
+  "referenceCatalogId": "S1A_IW_GRDH_1SDV_20260816T193800_NRSC_DHUBRI",
+  "basemap": {
+    "service": "Esri World Imagery",
+    "renderingStatus": "live_public_basemap",
+    "tileUrlTemplate": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    "attribution": "Tiles © Esri — Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
+    "scope": "Terrain presentation only; not a dated Sentinel scene or adjudicated flood product."
+  },
+  "wmsReferences": {
+    "bhuvanDisaster": {
+      "endpoint": "https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms",
+      "renderingStatus": "reference_only",
+      "validationStatus": "No inspectable public GetCapabilities document or permitted layer request was verified in this deployment."
+    },
+    "copernicusCdse": {
+      "suppliedEndpoint": "https://shervices.dataspace.copernicus.eu/ogc/wms/",
+      "suppliedEndpointStatus": "invalid_dns_host",
+      "documentedEndpointPattern": "https://sh.dataspace.copernicus.eu/ogc/wms/<INSTANCE_ID>",
+      "renderingStatus": "reference_only",
+      "validationStatus": "A registered CDSE instance ID is required before date-specific WMS layers can be rendered."
+    }
+  },
+  "displayDisclaimer": "DEMO ENVIRONMENT · Live Esri terrain basemap · Bhuvan and Copernicus WMS references recorded · no authorized live WMS layer is rendered."
+}

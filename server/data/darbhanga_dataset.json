@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "name": "darbhanga_dataset",
+  "metadata": {
+    "coordinate_reference_system": "EPSG:4326",
+    "scenario": "Darbhanga, Bihar district-switching dataset",
+    "source_context": "Bhuvan / NDEM flood-service and DILRMP/ULPIN attribute model",
+    "fixture_notice": "Representative, privacy-safe analytical fixtures. Parcel geometries and identity attributes are not official revenue records."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"feature_kind": "flood_sar", "layer_id": "S1A_IW_GRD_DBG_20240930_HIGH", "severity": "high", "sar_db": -21.2, "source": "Sentinel-1 IW GRD", "state": "Bihar", "district": "Darbhanga", "block": "Hayaghat", "acquisition_date": "2024-09-30T05:18:00Z"},
+      "geometry": {"type": "MultiPolygon", "coordinates": [[[[85.8868, 26.14720], [85.8890, 26.14720], [85.8890, 26.14855], [85.8868, 26.14855], [85.8868, 26.14720]]], [[[85.8914, 26.14735], [85.8942, 26.14735], [85.8942, 26.14890], [85.8914, 26.14890], [85.8914, 26.14735]]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"feature_kind": "flood_sar", "layer_id": "S1A_IW_GRD_DBG_20240930_MODERATE", "severity": "medium", "sar_db": -18.6, "source": "Sentinel-1 IW GRD", "state": "Bihar", "district": "Darbhanga", "block": "Hayaghat", "acquisition_date": "2024-09-30T05:18:00Z"},
+      "geometry": {"type": "MultiPolygon", "coordinates": [[[[85.8944, 26.14770], [85.8952, 26.14770], [85.8952, 26.14865], [85.8944, 26.14865], [85.8944, 26.14770]]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"feature_kind": "cadastral_parcel", "parcel_uid": "BR-DBG-118-7", "ulpin": "10020011870021", "ulpin_status": "representative_identifier", "khasra_no": "118/7", "dag_khasra_no": "118/7", "patta_type": "Raiyati", "farmer_name": "M. Kumari (fixture)", "masked_aadhaar": "XXXX-XXXX-2019", "crop_type": "Paddy (Kharif)", "total_area_ha": 1.18, "state": "Bihar", "district": "Darbhanga", "block": "Hayaghat", "village": "Chandanpatti", "village_name": "Chandanpatti", "policy_no": "BR-PMFBY-2024-1187", "pmfby_policy_id": "PMFBY/2026/BR/118700", "source_registry": "Representative DILRMP / AgriStack-aligned mapping; registry verification required"},
+      "geometry": {"type": "Polygon", "coordinates": [[[85.8871, 26.14735], [85.8893, 26.14735], [85.8893, 26.14820], [85.8871, 26.14820], [85.8871, 26.14735]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"feature_kind": "cadastral_parcel", "parcel_uid": "BR-DBG-126-2", "ulpin": "10020012620022", "ulpin_status": "representative_identifier", "khasra_no": "126/2", "dag_khasra_no": "126/2", "patta_type": "Raiyati", "farmer_name": "S. Yadav (fixture)", "masked_aadhaar": "XXXX-XXXX-9164", "crop_type": "Maize", "total_area_ha": 1.41, "state": "Bihar", "district": "Darbhanga", "block": "Hayaghat", "village": "Chandanpatti", "village_name": "Chandanpatti", "policy_no": "BR-PMFBY-2024-1262", "pmfby_policy_id": "PMFBY/2026/BR/126200", "source_registry": "Representative DILRMP / AgriStack-aligned mapping; registry verification required"},
+      "geometry": {"type": "Polygon", "coordinates": [[[85.8903, 26.14742], [85.8924, 26.14742], [85.8924, 26.14835], [85.8903, 26.14835], [85.8903, 26.14742]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"feature_kind": "cadastral_parcel", "parcel_uid": "BR-DBG-131-1", "ulpin": "10020013110023", "ulpin_status": "representative_identifier", "khasra_no": "131/1", "dag_khasra_no": "131/1", "patta_type": "Raiyati", "farmer_name": "R. Paswan (fixture)", "masked_aadhaar": "XXXX-XXXX-5730", "crop_type": "Paddy (Kharif)", "total_area_ha": 1.34, "state": "Bihar", "district": "Darbhanga", "block": "Hayaghat", "village": "Chandanpatti", "village_name": "Chandanpatti", "policy_no": "BR-PMFBY-2024-1311", "pmfby_policy_id": "PMFBY/2026/BR/131100", "source_registry": "Representative DILRMP / AgriStack-aligned mapping; registry verification required"},
+      "geometry": {"type": "Polygon", "coordinates": [[[85.8917, 26.14752], [85.8936, 26.14752], [85.8936, 26.14855], [85.8917, 26.14855], [85.8917, 26.14752]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"feature_kind": "cadastral_parcel", "parcel_uid": "BR-DBG-145-4", "ulpin": "10020014540024", "ulpin_status": "representative_identifier", "khasra_no": "145/4", "dag_khasra_no": "145/4", "patta_type": "Raiyati", "farmer_name": "K. Jha (fixture)", "masked_aadhaar": "XXXX-XXXX-6843", "crop_type": "Pulses", "total_area_ha": 1.05, "state": "Bihar", "district": "Darbhanga", "block": "Hayaghat", "village": "Chandanpatti", "village_name": "Chandanpatti", "policy_no": "BR-PMFBY-2024-1454", "pmfby_policy_id": "PMFBY/2026/BR/145400", "source_registry": "Representative DILRMP / AgriStack-aligned mapping; registry verification required"},
+      "geometry": {"type": "Polygon", "coordinates": [[[85.8944, 26.14772], [85.8961, 26.14772], [85.8961, 26.14858], [85.8944, 26.14858], [85.8944, 26.14772]]]}
+    }
+  ]
+}

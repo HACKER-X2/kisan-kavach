@@ -1,0 +1,99 @@
+# Project TODO
+
+- [x] Inspect the existing project structure, current design decisions, components, and test setup.
+- [x] Add EPSG:4326 GeoJSON fixture layers for Dhubri flood inundation, Dhubri cadastral parcels, and Darbhanga district switching.
+- [x] Document fixture provenance and clearly label representative, non-production identity attributes.
+- [x] Add a typed backend GIS analytics contract that calculates clipped flood area, caps inundation at parcel area, and derives claim KPIs from polygon intersections.
+- [x] Add Vitest coverage for flood-area capping, loss percentages, district switching, and claim-state updates.
+- [x] Rebuild the dashboard in the requested GovTech/NIC visual system with bilingual header, IST clock, white card surfaces, and required accent colors.
+- [x] Implement a data-driven flood map with layer legend and Pre-Flood NDVI / Post-Flood SAR toggles.
+- [x] Implement a dynamic urgent-window countdown initialized at 32:05:47.
+- [x] Implement the interactive two-way SMS simulator that confirms a claim after receiving the reply 1.
+- [x] Implement a filterable PMFBY claim registry with JSON payload viewing and generated PDF dossier download.
+- [x] Upgrade the downloaded PDF into a structured PMFBY dossier layout and verify the registry download workflow in preview.
+- [x] Run TypeScript checks, Vitest tests, production build, and visual preview checks at desktop and mobile sizes.
+- [x] Save a final project checkpoint with all completed work marked in this checklist.
+- [x] Import Leaflet CSS, fix default marker URLs, and add a post-mount map invalidateSize lifecycle trigger.
+- [x] Ensure the map and its parent layout reserve a non-collapsing responsive map height with complete tile rendering.
+- [x] Apply the requested OSM tile source, Dhubri default view, blue SAR flood styling, red cadastral styling, and gold selected-parcel styling.
+- [x] Add automated coverage for the Leaflet map defaults and required overlay styling configuration.
+- [x] Verify polygon click selection updates the parcel inspector and run type, build, and live-preview checks for the repaired map.
+- [x] Save a checkpoint for the verified Leaflet map fix.
+- [x] Derive reliable Leaflet bounds from the active district's flood and cadastral geometries.
+- [x] Fit the map to active GIS bounds whenever the user switches between Dhubri and Darbhanga.
+- [x] Verify the live Darbhanga switch replaces the Dhubri OSM tile range and shows the Darbhanga GIS extent.
+- [x] Add automated coverage and verify district-switch bounds fitting, TypeScript, tests, build, and live preview.
+- [x] Save a checkpoint for the verified district-aware bounds update.
+- [x] Replace the synthetic spectral pixel grid with terrain-based Sentinel-2-style crop canopy and Sentinel-1-style SAR inundation rendering.
+- [x] Overlay the selected Khasra boundary in the spectral terrain comparison and keep it synchronized with parcel selection.
+- [x] Add the requested Golakganj/Dhubri metadata strip, NDVI and SAR legends, and PMFBY loss-threshold summary.
+- [x] Add an accessible before/after split slider to reveal inundation over the pre-flood crop baseline.
+- [x] Add automated coverage and verify the redesigned panel with TypeScript, tests, build, and live preview.
+- [x] Add focused, testable coverage for the default #413/1 target, dynamic metadata model, and before/after reveal geometry.
+- [x] Re-verify the default spectral target and live terrain panel after the focused interaction-model coverage is added.
+- [x] Inspect the live browser view for Khasra #413/1, terrain tiles, the metadata strip, and the accessible 52% split-reveal slider.
+- [x] Save a checkpoint for the verified spectral comparison redesign.
+- [x] Validate the supplied Esri imagery, Bhuvan Disaster WMS, and Copernicus CDSE WMS references before making integration-status claims.
+- [x] Embed supplied public tile/WMS references, attribution, and catalog ID in auditable spectral source metadata.
+- [x] Apply the specified high-resolution Esri optical treatment and vector-based SAR water/noise overlay to the spectral comparison.
+- [x] Add a prominent, accurate GovTech integration-status banner that distinguishes source references from live WMS rendering.
+- [x] Add tests and verify the integration-status panel, TypeScript, build, and live preview.
+- [x] Save a checkpoint for the verified imagery and provenance update.
+- [x] Trace every selected-parcel loss value to identify stale fixture-derived fields versus the GeoJSON used by the Leaflet SAR overlay.
+- [x] Create one Turf-based selected-parcel intersection helper using the identical active flood GeoJSON rendered on the map.
+- [x] Bind the parcel inspector, SMS simulator, registry, and spectral loss summary exclusively to the shared computed inundated area, percentage, and PMFBY threshold state.
+- [x] Add regression tests for partial overlap, zero overlap, capping, and selection-to-summary synchronization.
+- [x] Verify the visible selected parcel loss matches the rendered geometry, then run TypeScript, tests, build, and preview checks.
+- [x] Save a checkpoint for the verified live intersection-calculation fix.
+- [x] Review the supplied WMS proxy, WMS/Turf service, and spectral module against the existing full-stack project contracts.
+- [x] Integrate the backend WMS proxy in zero-credential fallback mode without exposing provider secrets.
+- [x] Adapt the supplied WMS/Turf service to the client source layout and live flood GeoJSON contract.
+- [x] Integrate the supplied spectral comparison module while retaining existing GIS metadata, accessibility, and Esri fallback behavior.
+- [x] Add or update module regression tests, restart the app, and verify fallback rendering in the live dashboard.
+- [x] Save a checkpoint for the supplied core-module integration.
+- [x] Confirm CDSE as the supported provider pattern, using a server-side client-credentials token and registered WMS instance identifier.
+- [x] Add server-side provider token handling, token caching, and a credential-safe WMS proxy path.
+- [x] Add authenticated-WMS-ready layer controls, source status, and resilient zero-credential Esri/Turf fallback behavior.
+- [x] Add integration-focused tests covering mocked CDSE token acquisition, token reuse, protected tile forwarding, and zero-credential fallback; live upstream validation remains contingent on authorized credentials.
+- [x] Save a final checkpoint including the authenticated-proxy contract verification.
+- [x] Validate Open-Meteo, Esri, Bhuvan, Copernicus, and Scale-of-Finance sources and record accurate source-status boundaries.
+- [x] Add a server-side Open-Meteo precipitation procedure with resilient live and historical fallback responses for Dhubri and Darbhanga.
+- [x] Implement the meteorological KPI and seven-day rainfall visualisation using the live weather procedure.
+- [x] Extend representative cadastral features with masked, 14-digit ULPIN-style identifiers and DILRMP/AgriStack-compatible metadata without misrepresenting registry access.
+- [x] Add a source-traceable Scale-of-Finance mapping and dynamic PMFBY indicative payout calculation based on live Turf inundated area.
+- [x] Surface Bhuvan/Copernicus scene provenance and evidence-check metadata in the inspector and Annexure-IV dossier.
+- [x] Synchronize ULPIN, loss, payout, and sealing state across map selection, claims table, SMS simulator, and Annexure-IV PDF export.
+- [x] Test weather fallback, payout calculation, schema metadata, and claim-state synchronization; compile, restart, and verify the preview.
+- [x] Save a checkpoint for the six-section public-data and claims upgrade.
+- [x] Review current claim-state, countdown, SMS simulator, registry action, and dossier contracts for the operational-module extension.
+- [x] Add a timestamp-based 72-hour PMFBY SLA model with an explicitly simulated Rule 14.2 auto-seal escalation state.
+- [x] Add SMS and IVR/USSD simulator channels with Hindi/Assamese consent prompts and keypad `1` confirmation.
+- [x] Add a simulated PFMS/NPCI APB settlement model with masked target account, deterministic demonstration UTR, and explicit non-production status.
+- [x] Integrate SLA timing, consent channels, escalation, and PFMS settlement actions into the header, claim inspector, registry, and Annexure-IV output.
+- [x] Add regression coverage for SLA calculation, escalation, IVR consent, and PFMS settlement; then type-check, build, restart, and verify the preview.
+- [x] Add SLA, consent-channel, escalation, and PFMS settlement metadata to the selected-plot inspector panel.
+- [x] Verify the selected-plot inspector displays operational fields after IVR sealing and simulated PFMS settlement.
+- [x] Save a checkpoint for the operational module upgrade.
+- [x] Verify the selected-plot inspector through the IVR/USSD path after keypad `1`, including its consent-channel and sealed-SLA fields.
+- [x] Re-check the selected-plot inspector after PFMS simulation and confirm its settlement field updates to the success UTR state.
+- [x] Investigate the stale `settlePfmsClaim` runtime-import console entry and confirm the current server has no active operational-module import error.
+- [x] Review the current IVR/USSD prompt component and consent-state contract for regional language support.
+- [x] Add a language dropdown with Hindi, Assamese, Marathi, and Bengali simulated IVR prompt variants.
+- [x] Keep the selected-language prompt and keypad `1` confirmation synchronized with the existing claim workflow.
+- [x] Add coverage, type-check, restart, and verify regional prompt switching in the live simulator.
+- [x] Save a checkpoint for the regional IVR language enhancement.
+- [x] Review current SLA, consent-event, weather telemetry, and Annexure-IV contracts for statutory audit fields.
+- [x] Calculate the 72-hour claim deadline from `2026-08-16T19:38:00Z` and display exact remaining time in the header and selected-parcel inspector.
+- [x] Add an automated urgent SMS reminder when the active statutory window has fewer than 24 hours remaining, using the indicative claim payout.
+- [x] Add acquisition, SMS dispatch, confirmation, escalation, and IMD/ERA5 148.5 mm telemetry evidence to the Annexure-IV dossier.
+- [x] Add regression coverage for deadline calculation, urgent-message threshold behavior, audit fields, and cross-component reactivity.
+- [x] Type-check, build, restart, and verify the live dashboard and Annexure-IV output.
+- [x] Save a checkpoint for the acquisition-timestamp statutory workflow enhancement.
+- [x] Analyze the attached PowerPoint and identify all Slide 5 and comparative-matrix financial-policy wording gaps.
+- [x] Make the Turf loss-area × official notified Scale-of-Finance payout formula explicit in the deck.
+- [x] Clarify that KISAN KAVACH preserves PMFBY financial rules, uses official Scale of Finance, and executes Rule 14.2 without creating a new policy.
+- [x] State that Sentinel-1 SAR spatial math replaces manual CCE execution for timely, auditable assessment rather than changing entitlement rules.
+- [x] Generate, inspect, and deliver the revised policy-aligned PowerPoint file.
+- [x] Confirm that Slide 5 and the comparative-matrix source files explicitly contain the payout formula, PMFBY policy boundary, SAR-versus-CCE distinction, and Rule 14.2 DPI framing.
+- [x] Render and visually inspect the revised Slide 5 and comparative-matrix output, recording that all required policy statements are legible.
+- [x] Export the presented policy-aligned deck to a downloadable `.pptx` file derived from the revised slide project and deliver that artifact.

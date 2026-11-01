@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "name": "dhubri_cadastral_parcels",
+  "metadata": {
+    "coordinate_reference_system": "EPSG:4326",
+    "scenario": "Dhubri, Assam parcel-assessment workspace",
+    "source_context": "DILRMP / ULPIN-aligned attribute model",
+    "fixture_notice": "Representative, privacy-safe analytical fixtures. Parcel geometries are not authoritative revenue records; farmer names and Aadhaar values are fictitious and masked."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"parcel_uid": "AS-DHB-401-2", "ulpin": "18010040120011", "ulpin_status": "representative_identifier", "khasra_no": "401/2", "dag_khasra_no": "401/2", "patta_type": "Khiraj Myadi (Periodic)", "farmer_name": "A. Rahman (fixture)", "masked_aadhaar": "XXXX-XXXX-0912", "crop_type": "Paddy (Kharif)", "total_area_ha": 1.36, "state": "Assam", "district": "Dhubri", "block": "Golakganj", "village": "Binnachara", "village_name": "Binnachara", "policy_no": "AS-PMFBY-2024-4012", "pmfby_policy_id": "PMFBY/2026/AS/401200", "source_registry": "Representative DILRMP / AgriStack-aligned mapping; registry verification required"},
+      "geometry": {"type": "Polygon", "coordinates": [[[89.9582, 26.01560], [89.9604, 26.01560], [89.9604, 26.01625], [89.9582, 26.01625], [89.9582, 26.01560]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"parcel_uid": "AS-DHB-413-1", "ulpin": "18010041310012", "ulpin_status": "representative_identifier", "khasra_no": "413/1", "dag_khasra_no": "413/1", "patta_type": "Khiraj Myadi (Periodic)", "farmer_name": "N. Boro (fixture)", "masked_aadhaar": "XXXX-XXXX-3386", "crop_type": "Jute", "total_area_ha": 1.42, "state": "Assam", "district": "Dhubri", "block": "Golakganj", "village": "Binnachara", "village_name": "Binnachara", "policy_no": "AS-PMFBY-2024-4131", "pmfby_policy_id": "PMFBY/2026/AS/413100", "source_registry": "Representative DILRMP / AgriStack-aligned mapping; registry verification required"},
+      "geometry": {"type": "Polygon", "coordinates": [[[89.9614, 26.01570], [89.9634, 26.01570], [89.9634, 26.01655], [89.9614, 26.01655], [89.9614, 26.01570]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"parcel_uid": "AS-DHB-427-3", "ulpin": "18010042730013", "ulpin_status": "representative_identifier", "khasra_no": "427/3", "dag_khasra_no": "427/3", "patta_type": "Khiraj Myadi (Periodic)", "farmer_name": "P. Das (fixture)", "masked_aadhaar": "XXXX-XXXX-6725", "crop_type": "Paddy (Kharif)", "total_area_ha": 1.52, "state": "Assam", "district": "Dhubri", "block": "Golakganj", "village": "Binnachara", "village_name": "Binnachara", "policy_no": "AS-PMFBY-2024-4273", "pmfby_policy_id": "PMFBY/2026/AS/427300", "source_registry": "Representative DILRMP / AgriStack-aligned mapping; registry verification required"},
+      "geometry": {"type": "Polygon", "coordinates": [[[89.9641, 26.01590], [89.9660, 26.01590], [89.9660, 26.01670], [89.9641, 26.01670], [89.9641, 26.01590]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"parcel_uid": "AS-DHB-439-2", "ulpin": "18010043920014", "ulpin_status": "representative_identifier", "khasra_no": "439/2", "dag_khasra_no": "439/2", "patta_type": "Khiraj Myadi (Periodic)", "farmer_name": "J. Begum (fixture)", "masked_aadhaar": "XXXX-XXXX-1170", "crop_type": "Paddy (Kharif)", "total_area_ha": 1.43, "state": "Assam", "district": "Dhubri", "block": "Golakganj", "village": "Kochugaon", "village_name": "Kochugaon", "policy_no": "AS-PMFBY-2024-4392", "pmfby_policy_id": "PMFBY/2026/AS/439200", "source_registry": "Representative DILRMP / AgriStack-aligned mapping; registry verification required"},
+      "geometry": {"type": "Polygon", "coordinates": [[[89.9674, 26.01560], [89.9696, 26.01560], [89.9696, 26.01650], [89.9674, 26.01650], [89.9674, 26.01560]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"parcel_uid": "AS-DHB-452-1", "ulpin": "18010045210015", "ulpin_status": "representative_identifier", "khasra_no": "452/1", "dag_khasra_no": "452/1", "patta_type": "Khiraj Myadi (Periodic)", "farmer_name": "R. Ali (fixture)", "masked_aadhaar": "XXXX-XXXX-4582", "crop_type": "Maize", "total_area_ha": 1.19, "state": "Assam", "district": "Dhubri", "block": "Golakganj", "village": "Kochugaon", "village_name": "Kochugaon", "policy_no": "AS-PMFBY-2024-4521", "pmfby_policy_id": "PMFBY/2026/AS/452100", "source_registry": "Representative DILRMP / AgriStack-aligned mapping; registry verification required"},
+      "geometry": {"type": "Polygon", "coordinates": [[[89.9702, 26.01572], [89.9723, 26.01572], [89.9723, 26.01668], [89.9702, 26.01668], [89.9702, 26.01572]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"parcel_uid": "AS-DHB-468-4", "ulpin": "18010046840016", "ulpin_status": "representative_identifier", "khasra_no": "468/4", "dag_khasra_no": "468/4", "patta_type": "Khiraj Myadi (Periodic)", "farmer_name": "S. Basumatary (fixture)", "masked_aadhaar": "XXXX-XXXX-8014", "crop_type": "Paddy (Kharif)", "total_area_ha": 1.07, "state": "Assam", "district": "Dhubri", "block": "Golakganj", "village": "Kochugaon", "village_name": "Kochugaon", "policy_no": "AS-PMFBY-2024-4684", "pmfby_policy_id": "PMFBY/2026/AS/468400", "source_registry": "Representative DILRMP / AgriStack-aligned mapping; registry verification required"},
+      "geometry": {"type": "Polygon", "coordinates": [[[89.9732, 26.01570], [89.9748, 26.01570], [89.9748, 26.01655], [89.9732, 26.01655], [89.9732, 26.01570]]]}
+    }
+  ]
+}

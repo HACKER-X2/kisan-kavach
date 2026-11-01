@@ -1,0 +1,284 @@
+{
+  "states": [
+    {
+      "code": "AS",
+      "name": "Assam",
+      "nameHi": "असम",
+      "nameRegional": "অসম",
+      "districts": [
+        {
+          "code": "dhubri",
+          "name": "Dhubri",
+          "nameHi": "धुबरी",
+          "nameRegional": "ধুবুৰী",
+          "center": [26.0163, 89.9664],
+          "zoom": 14,
+          "hasFloodData": true,
+          "blocks": [
+            {
+              "code": "golakganj",
+              "name": "Golakganj",
+              "nameHi": "गोलकगंज",
+              "nameRegional": "গোলোকগঞ্জ",
+              "hasFloodData": true,
+              "districtKey": "dhubri",
+              "center": [26.0163, 89.9664],
+              "zoom": 14,
+              "revenueVillage": "Binnachara",
+              "monitoredAreaHa": 14.82,
+              "sarSensor": "Sentinel-1 IW GRD"
+            },
+            {
+              "code": "gauripur",
+              "name": "Gauripur",
+              "nameHi": "गौरीपुर",
+              "nameRegional": "গৌৰীপুৰ",
+              "hasFloodData": false,
+              "districtKey": null,
+              "center": [26.0825, 89.9742],
+              "zoom": 13,
+              "revenueVillage": "Gauripur Rural",
+              "monitoredAreaHa": 0,
+              "sarSensor": "Sentinel-1 IW GRD"
+            },
+            {
+              "code": "bilasipara",
+              "name": "Bilasipara",
+              "nameHi": "बिलासीपारा",
+              "nameRegional": "বিলাসীপাৰা",
+              "hasFloodData": false,
+              "districtKey": null,
+              "center": [26.2333, 90.2333],
+              "zoom": 13,
+              "revenueVillage": "Bilasipara Block HQ",
+              "monitoredAreaHa": 0,
+              "sarSensor": "Sentinel-1 IW GRD"
+            }
+          ]
+        },
+        {
+          "code": "kamrup",
+          "name": "Kamrup",
+          "nameHi": "कामरूप",
+          "nameRegional": "কামৰূপ",
+          "center": [26.3134, 91.5973],
+          "zoom": 12,
+          "hasFloodData": false,
+          "blocks": [
+            {
+              "code": "hajo",
+              "name": "Hajo",
+              "nameHi": "हाजो",
+              "nameRegional": "হাজো",
+              "hasFloodData": false,
+              "districtKey": null,
+              "center": [26.2486, 91.5278],
+              "zoom": 12,
+              "revenueVillage": "Hajo Cadastre",
+              "monitoredAreaHa": 0,
+              "sarSensor": "Sentinel-1 IW GRD"
+            },
+            {
+              "code": "palasbari",
+              "name": "Palasbari",
+              "nameHi": "पलासबाड़ी",
+              "nameRegional": "পলাশবাৰী",
+              "hasFloodData": false,
+              "districtKey": null,
+              "center": [26.1287, 91.5033],
+              "zoom": 12,
+              "revenueVillage": "Palasbari South",
+              "monitoredAreaHa": 0,
+              "sarSensor": "Sentinel-1 IW GRD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BR",
+      "name": "Bihar",
+      "nameHi": "बिहार",
+      "nameRegional": "বিহাৰ",
+      "districts": [
+        {
+          "code": "darbhanga",
+          "name": "Darbhanga",
+          "nameHi": "दरभंगा",
+          "nameRegional": "দৰভাঙ্গা",
+          "center": [26.1481, 85.8919],
+          "zoom": 14,
+          "hasFloodData": true,
+          "blocks": [
+            {
+              "code": "hayaghat",
+              "name": "Hayaghat",
+              "nameHi": "हायाघाट",
+              "nameRegional": "হায়াঘাট",
+              "hasFloodData": true,
+              "districtKey": "darbhanga",
+              "center": [26.1481, 85.8919],
+              "zoom": 14,
+              "revenueVillage": "Chandanpatti",
+              "monitoredAreaHa": 11.24,
+              "sarSensor": "Sentinel-1 IW GRD"
+            },
+            {
+              "code": "keoti",
+              "name": "Keoti",
+              "nameHi": "केवटी",
+              "nameRegional": "কেউতি",
+              "hasFloodData": false,
+              "districtKey": null,
+              "center": [26.2625, 85.9528],
+              "zoom": 13,
+              "revenueVillage": "Keoti North",
+              "monitoredAreaHa": 0,
+              "sarSensor": "Sentinel-1 IW GRD"
+            },
+            {
+              "code": "benipur",
+              "name": "Benipur",
+              "nameHi": "बेनीपुर",
+              "nameRegional": "বেনীপুৰ",
+              "hasFloodData": false,
+              "districtKey": null,
+              "center": [26.0461, 86.1553],
+              "zoom": 13,
+              "revenueVillage": "Benipur Central",
+              "monitoredAreaHa": 0,
+              "sarSensor": "Sentinel-1 IW GRD"
+            }
+          ]
+        },
+        {
+          "code": "muzaffarpur",
+          "name": "Muzaffarpur",
+          "nameHi": "मुजफ्फरपुर",
+          "nameRegional": "মুজাফ্ফৰপুৰ",
+          "center": [26.1209, 85.3647],
+          "zoom": 12,
+          "hasFloodData": false,
+          "blocks": [
+            {
+              "code": "kanti",
+              "name": "Kanti",
+              "nameHi": "कांटी",
+              "nameRegional": "কান্তি",
+              "hasFloodData": false,
+              "districtKey": null,
+              "center": [26.1989, 85.3089],
+              "zoom": 12,
+              "revenueVillage": "Kanti Industrial",
+              "monitoredAreaHa": 0,
+              "sarSensor": "Sentinel-1 IW GRD"
+            },
+            {
+              "code": "musahari",
+              "name": "Musahari",
+              "nameHi": "मुशहरी",
+              "nameRegional": "মুছাহাৰী",
+              "hasFloodData": false,
+              "districtKey": null,
+              "center": [26.0892, 85.4278],
+              "zoom": 12,
+              "revenueVillage": "Musahari Farm",
+              "monitoredAreaHa": 0,
+              "sarSensor": "Sentinel-1 IW GRD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "OD",
+      "name": "Odisha",
+      "nameHi": "ओडिशा",
+      "nameRegional": "ওড়িশা",
+      "districts": [
+        {
+          "code": "puri",
+          "name": "Puri",
+          "nameHi": "पुरी",
+          "nameRegional": "পুৰী",
+          "center": [19.8135, 85.8312],
+          "zoom": 12,
+          "hasFloodData": false,
+          "blocks": [
+            {
+              "code": "kanas",
+              "name": "Kanas",
+              "nameHi": "कनास",
+              "nameRegional": "কানাস",
+              "hasFloodData": false,
+              "districtKey": null,
+              "center": [19.9881, 85.6428],
+              "zoom": 12,
+              "revenueVillage": "Kanas Coastal",
+              "monitoredAreaHa": 0,
+              "sarSensor": "Sentinel-1 IW GRD"
+            },
+            {
+              "code": "pipili",
+              "name": "Pipili",
+              "nameHi": "पिपिली",
+              "nameRegional": "পিপিলি",
+              "hasFloodData": false,
+              "districtKey": null,
+              "center": [20.1172, 85.8322],
+              "zoom": 12,
+              "revenueVillage": "Pipili Craft Belt",
+              "monitoredAreaHa": 0,
+              "sarSensor": "Sentinel-1 IW GRD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "UP",
+      "name": "Uttar Pradesh",
+      "nameHi": "उत्तर प्रदेश",
+      "nameRegional": "উত্তৰ প্ৰদেশ",
+      "districts": [
+        {
+          "code": "gorakhpur",
+          "name": "Gorakhpur",
+          "nameHi": "गोरखपुर",
+          "nameRegional": "गोৰখপুৰ",
+          "center": [26.7606, 83.3732],
+          "zoom": 12,
+          "hasFloodData": false,
+          "blocks": [
+            {
+              "code": "campierganj",
+              "name": "Campierganj",
+              "nameHi": "कैम्पियरगंज",
+              "nameRegional": "কেম্পিয়াৰগঞ্জ",
+              "hasFloodData": false,
+              "districtKey": null,
+              "center": [26.9856, 83.2758],
+              "zoom": 12,
+              "revenueVillage": "Campierganj Terai",
+              "monitoredAreaHa": 0,
+              "sarSensor": "Sentinel-1 IW GRD"
+            },
+            {
+              "code": "sahjanwa",
+              "name": "Sahjanwa",
+              "nameHi": "सहजनवा",
+              "nameRegional": "সহজনৱা",
+              "hasFloodData": false,
+              "districtKey": null,
+              "center": [26.7328, 83.1911],
+              "zoom": 12,
+              "revenueVillage": "Sahjanwa Industrial",
+              "monitoredAreaHa": 0,
+              "sarSensor": "Sentinel-1 IW GRD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

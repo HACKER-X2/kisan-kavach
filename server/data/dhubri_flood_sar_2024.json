@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "name": "dhubri_flood_sar_2024",
+  "metadata": {
+    "coordinate_reference_system": "EPSG:4326",
+    "scenario": "Dhubri, Assam flood assessment",
+    "acquisition": "Sentinel-1 IW GRD, 2024-08-06T05:26:00Z",
+    "method": "Change detection with Otsu thresholding and a -18 dB water backscatter rule",
+    "source_context": "Bhuvan / NDEM disaster-services workflow",
+    "fixture_notice": "Representative analytical fixture positioned around Dhubri. It is not a published official flood adjudication product."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "layer_id": "S1A_IW_GRD_DHB_20240806_HIGH",
+        "severity": "high",
+        "sar_db": -20.7,
+        "source": "Sentinel-1 IW GRD",
+        "state": "Assam",
+        "district": "Dhubri",
+        "block": "Golakganj",
+        "acquisition_date": "2024-08-06T05:26:00Z"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [[[89.9578, 26.01545], [89.9597, 26.01545], [89.9597, 26.01645], [89.9578, 26.01645], [89.9578, 26.01545]]],
+          [[[89.96301, 26.01555], [89.9654, 26.01555], [89.9654, 26.01735], [89.96301, 26.01735], [89.96301, 26.01555]]],
+          [[[89.9670, 26.01530], [89.9706, 26.01530], [89.9706, 26.01660], [89.9670, 26.01660], [89.9670, 26.01530]]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer_id": "S1A_IW_GRD_DHB_20240806_MODERATE",
+        "severity": "medium",
+        "sar_db": -18.9,
+        "source": "Sentinel-1 IW GRD",
+        "state": "Assam",
+        "district": "Dhubri",
+        "block": "Golakganj",
+        "acquisition_date": "2024-08-06T05:26:00Z"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [[[89.9702, 26.01570], [89.9708, 26.01570], [89.9708, 26.01675], [89.9702, 26.01675], [89.9702, 26.01570]]],
+          [[[89.9630, 26.01762], [89.9643, 26.01762], [89.9643, 26.01825], [89.9630, 26.01825], [89.9630, 26.01762]]]
+        ]
+      }
+    }
+  ]
+}
